@@ -26,53 +26,8 @@ h1 {
     color: white;
     text-align: center;
 }
-
-.links-wrapper {
-    display: flex;
-}
-
-.links-wrapper div {
-    display: flex;
-    flex-direction: column;
-    margin-right: 110px;
-}
-
-.links-wrapper div:last-child {
-    margin-right: 0;
-}
-
-.links-wrapper div a.mid {
-    text-align: center;
-    text-decoration: none;
+h2{
+    font-weight: 800;
+    margin-bottom: 10px;
     color: white;
-    opacity: 0.6;
-    margin-bottom: 5px;
-    font-size: small;
-    position: relative;
-}
-
-.links-wrapper div a.mid:hover {
-    color: hotpink;
-    opacity: 1;
-    cursor: default;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.links-wrapper div a.mid::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: hotpink;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.links-wrapper div a.mid:hover::before {
-    visibility: visible;
-    transform: scaleX(0.5);
-
 }
