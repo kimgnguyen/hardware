@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hardware.</title>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="Hardware">
+
+        <h1>Startech 4POSTRACK12U.</h1>
+        <br>
+        <h2>Ubiquiti EdgeRouter 4</h2><br>
+        <h2>Ubiquiti EdgeSwitch Lite 24</h2><br>
+        <h2>TP-Link EAP225-Outdoor</h2><br>
+        <h2>esxi0.Ekjait</h2>
+        <p>InWin RF100<br>
+            OEM 265w<br>
+            Supermicro X10SDV-6C-TLN4F // INTEL Xeon D1528<br>
+            4x Crucial CT8G4DFS824A<br>
+            1x Crucial CT250P2SSD8<br>
+            1x SanDisk Ultra Fit 32Go<br>
+            4x Noctua NF-A4x20<br>
+            1x Noctua NF-A4x10<br></p>
+        <br>
+        <h2>esxi1.Ekjait</h2>
+        <p>Intertech 2U 20255<br>
+            Impervio IPR-2600FVS 600w<br>
+            Asrock Fatal1ty B450 ITX/AC // AMD Ryzen 2400G<br>
+            Cryorig C7G<br>
+            ZOTAC GeForce GTX 1650 Low Profile<br>
+            2x Crucial BLS2K8G4D30AESCK<br>
+            1x Crucial CT1000P1SSD8<br>
+            1x SanDisk Ultra Fit 32Go<br>
+            2x Noctua NF-R8<br>
+            1x Noctua NF-A9<br></p>
+        <br>
+        <h2>venus.Ekjait</h2>
+        <p>Cablematic/Rackmatic CK030<br>
+            BeQuiet! Straight Power 11 750w<br>
+            ASUS ROG Crosshair VIII Impact // AMD Ryzen 3600<br>
+            Noctua NH-U12A<br>
+            Gigabyte GTX1070 G1 Gaming<br>
+            2x Crucial BLS2K16G4D32AESC<br>
+            1x Crucial CT500P1SSD8<br>
+            1x Crucial CT1000MX500SSD4<br>
+            6x Noctua NF-A12x25<br>
+            2x Noctua F12 IPPC-2000<br>
+            2x Noctua NF-A8<br></p>
+    </div>
+</body>
