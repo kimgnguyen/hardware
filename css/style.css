@@ -4,58 +4,49 @@
     box-sizing: border-box;
     font-family: "Segoe UI";
     color: #fff;
-    font-size: 12px
+    font-size: 12px;
 }
 
-.links-wrapper div,body {
-    display: flex;
-    flex-direction: column
-}
-
+/* Base styles for all screens */
 body {
-    height: 100vh;
-    width: 100vw;
     background-color: #2f2f2f;
-    justify-content: center;
-    align-items: center;
-    position: absolute
+}
+
+.links-wrapper div, body {
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     font-size: xx-large;
     font-weight: 600;
     margin-bottom: 10px;
-    color: inherit;
-    text-align: left
+    text-align: left;
 }
 
 .links-wrapper {
-    display: flex
+    display: flex;
 }
 
 .links-wrapper div {
-    margin-right: 75px
+    margin-right: 75px;
 }
 
 .links-wrapper div:last-child {
-    margin-right: 0
+    margin-right: 0;
 }
 
 .links-wrapper div a.mid {
-    text-align: left;
     text-decoration: none;
-    color: inherit;
     opacity: 1;
     margin-bottom: 5px;
     font-size: small;
-    position: relative
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid:hover {
     color: #fff;
-    opacity: 1;
-    cursor: default;
-    transition: all .3s ease-in-out 0s
 }
 
 .links-wrapper div a.mid::before {
@@ -68,10 +59,21 @@ h1 {
     background-color: #ff69b4;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all .3s ease-in-out 0s
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid:hover::before {
     visibility: visible;
-    transform: scaleX(.5)
+    transform: scaleX(0.5);
+}
+
+/* Responsive styles for screens wider than 768px */
+@media (min-width: 769px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
 }
